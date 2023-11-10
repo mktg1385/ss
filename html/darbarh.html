@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>درباره ما</title>
+    <link rel="shortcut icon" type="x-icon" href="../image/logo_115zon.png" />
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/style-darbarh.css">
+    <link rel="stylesheet" href="../css/respansive-darbarh.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="right">
+          <div class="hamburger-icon">
+            <img src="../image/Hamburger_icon.png" alt="">
+          </div>
+          <ul>
+            <li><a href="../index.html">خانه</a></li>
+            <li><a href="mah.html">محصولات</a></li>
+            <li><a href="ghimat.html">قیمت</a></li>
+          </ul>
+        </div>
+        <div class="left">
+          <ul>
+            <li>
+              <a href=""><i class="fas fa-user"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-search"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="respansive-navigation">
+        <ul>
+          <li><a href="../index.html">خانه</a></li>
+            <li><a href="mah.html">محصولات</a></li>
+            <li><a href="ghimat.html">قیمت</a></li>
+        </ul>
+      </nav>
+      <div class="div-img">
+        <h1>درباره ما</h1>
+        <img src="../image/logo_112zon2.png" alt="" />
+        <h2>برنج شریفی</h2>
+        <p>
+          توليد و توزيع برنج معطر فريدونكنار به سراسر كشورجهت طبخ در هتلها ،
+          رستورانها و مصارف خانگي برنج شريفي
+        </p>
+        <p>(حاج علی شریفی و پسران)</p>
+        <hr />
+        <p>دفتر فروش:۳۳۶۰۹۲۱۷-۰۱۱</p>
+        <p>تلفن تماس:۰۹۱۱۹۵۴۷۷۹۷ـ۰۹۱۱۱۵۸۵۴۲۳</p>
+        <p>آدرس:مازندران.ساری.بلوارشهیدان شمشیربند.نبش شمشیربند ۱۷</p>
+      </div>
+    </header>
+    <footer class="footer">
+      <div class="lendi">
+        <h1>این سایت توسط گروهی از دانش اموزان دوازده کامپیوتر هنرستان لندی</h1>
+        <h2>تاریخ : ۱۴۰۲/۸/۱۳</h2>
+      </div>
+    </footer>
+    <script src="../js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+   <script>
+    $(document).ready(function(){
+        $('header .hamburger-icon img').click(function(){
+            let respansivemenu = $('#respansive-navigation');
+            respansivemenu.animate({
+                right:0
+            },300);
+            $('body').append('<div class="back-container"></div>');
+            $('.back-container').click(function(){
+                respansivemenu.animate({
+                    right: '-200px'
+                },300)
+                $(this).remove()
+            })
+        })
+    })
+   </script>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+@media screen and (max-width: 1400px) {
+  header .div-img img {
+    width: 400px;
+  }
+  .ghimat0 ul li {
+    display: inline-block;
+    width: 300px;
+    height: 420px;
+  }
+  .ghimat0 ul li h2 {
+    font-size: larger;
+  }
+  .ghimat0 ul li h3 {
+    font-size: large;
+  }
+  .ghimat0 ul li h4 {
+    font-size: large;
+  }
+}
+@media screen and (max-width: 1330px) {
+  .ghimat0 ul li {
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+  }
+  .ghimat0 ul li h2 {
+    font-size: large;
+  }
+  .ghimat0 ul li h3 {
+    font-size: smaller;
+  }
+  .ghimat0 ul li h4 {
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  header .div-img {
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    position: static;
+    font-size: 20px;
+  }
+  header .div-img img {
+    width: 310px;
+  }
+
+}
+@media screen and (max-width: 992px) {
+  
+  .ghimat0 ul li h2 {
+    font-size: larger;
+  }
+  .ghimat0 ul li h3 {
+    font-size: medium;
+  }
+  .ghimat0 ul li h4 {
+    font-size: medium;
+  }
+  header nav .right ul{
+    display: none;
+  }
+  header .hamburger-icon{
+    display: block;
+  }
+  header .hamburger-icon{
+    cursor: pointer;
+  }
+  #respansive-navigation{
+    display: block;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -220px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .8);
+  }
+  #respansive-navigation ul{
+    width: 100%;
+  }
+  #respansive-navigation ul li{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 10%;
+  }
+  .back-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+  }
+}
+@media screen and (max-width: 768px) {
+  header .div-img img {
+    width: 350px;
+  }
+  
+  .ghimat0 ul li h2 {
+    font-size: 19px;
+  }
+  .ghimat0 ul li h3 {
+    font-size: 16px;
+  }
+  .ghimat0 ul li h4 {
+    font-size: 16px;
+  }
+  header .div-img {
+    width: 100%;
+    text-align: center;
+    padding-top: 15%;
+    position: static;
+  }
+}
+@media screen and (max-width: 576px) {
+
+
+  .footer .lendi h1 {
+    font-size: larger;
+  }
+  .ghimat0 ul {
+    text-align: center;
+  }
+  .ghimat0 ul li {
+    
+    width: 280px;
+    height: 370px;
+  }
+  .ghimat0 ul li h2 {
+    font-size: 15px;
+  }
+  .ghimat0 ul li h3 {
+    font-size: 13px;
+  }
+  .ghimat0 ul li h4 {
+    font-size: 13px;
+  }
+  header .div-img {
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+    position: static;
+  }
+  .footer .ertbat img {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 400px) {
+  
+  header nav .right ul li a {
+    font-size: 18px;
+  }
+  header nav .right {
+    width: 70%;
+  }
+  header nav .left {
+    width: 30%;
+  }
+  header nav .left ul li a {
+    font-size: 18px;
+  }
+  header .div-img {
+    width: 100%;
+    text-align: center;
+    padding-top: 28%;
+    position: static;
+  }
+  .footer {
+    height: 450px;
+  }
+  .footer .ertbat img {
+    width: 160px;
+  }
+}
+@media screen and (max-width: 370px) {
+  header .div-img img {
+    width: 200px;
+  }
+
+  header nav .right ul li a {
+    font-size: 14px;
+  }
+  header nav .right {
+    width: 75%;
+  }
+  header nav .left {
+    width: 25%;
+  }
+  header nav .left ul li a {
+    font-size: 14px;
+  }
+  .ghimat0 ul li {
+    
+    width: 250px;
+    height: 380px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .ghimat0 ul li {
+    margin-left: 0;
+    width: 230px;
+    height: 360px;
+  }
+  header nav .right ul li a {
+    font-size: 19px;
+  }
+  header nav .right {
+    width: 75%;
+  }
+  header nav .left {
+    width: 25%;
+  }
+  header nav .left ul li a {
+    font-size: 19px;
+  }
+  .hamburger-icon img{
+    width: 40px;
+    margin: 0 5%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .ghimat0 ul li {
+    margin-left: 0;
+    width: 190px;
+    height: 330px;
+  }
+  header nav .right ul li a {
+    font-size: 19px;
+  }
+  header nav .right {
+    width: 75%;
+  }
+  header nav .left {
+    width: 25%;
+  }
+  header nav .left ul li a {
+    font-size: 19px;
+  }
+  .hamburger-icon img{
+    width: 40px;
+    margin: 0 5%;
+}
+}
+@media screen and (max-width: 280px) {
+  
+  .ghimat0 ul li {
+    
+    width: 151px;
+    height: 320px;
+  }
+  .ghimat0 ul li img{
+    width: 80%;
+  }
+  header .div-img img {
+    width: 240px;
+  }
+  header nav .right ul li a {
+    font-size: 11.3px;
+    
+  }
+  header nav .right {
+    width: 75%;
+  }
+  header nav .left {
+    width: 25%;
+  }
+  header nav .left ul li a {
+    font-size: 12px;
+  }
+
+  
+  .footer .lendi h1 {
+    font-size: large;
+  }
+  header .div-img {
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+    position: static;
+  }
+  .footer .ertbat img {
+    width: 130px;
+  }
+
+}
+@media screen and (max-height: 660px) {
+  header{
+    height: 100%;
+  }
+}

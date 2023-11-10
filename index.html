@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>sharifirice</title>
+    <link rel="shortcut icon" type="x-icon" href="./image/logo_112zon2.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/respansive.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="right">
+          <div class="hamburger-icon">
+            <img src="image/Hamburger_icon.png" alt="">
+          </div>
+          <ul>
+            <li><a href="./html/mah.html">محصولات</a></li>
+            <li><a href="./html/ghimat.html">قیمت</a></li>
+            <li><a href="./html/darbarh.html">درباره ما</a></li>
+          </ul>
+        </div>
+
+        <div class="left">
+          <ul>
+            <li>
+              <a href=""><i class="fas fa-user"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fas fa-search"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="respansive-navigation">
+        <ul>
+          <li><a href="./html/mah.html">محصولات</a></li>
+          <li><a href="./html/ghimat.html">قیمت</a></li>
+          <li><a href="./html/darbarh.html">درباره ما</a></li>
+        </ul>
+      </nav>
+      <div class="div-img">
+        <img src="./image/logo_113zon.png" alt="" />
+      </div>
+    </header>
+    <hr />
+    <section class="rn">
+      <div class="h">
+        <div class="imag">
+          <ul>
+            <li><img src="./image/shali0.jpg" alt="" /></li>
+            <li><img src="./image/shali7.jpg" alt="" /></li>
+            <li><img src="./image/tahi3.jpg" alt="" /></li>
+            <li><img src="./image/tahi4.jpg" alt="" /></li>
+            <div class="h2">
+              <h1>روند تهیه محصول</h1>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="video">
+      <a>معرفی کار و کسب</a>
+      <br />
+      <video controls loop src="./video/video (1)_2.mp4"></video>
+    </section>
+    <section class="bazdid">
+      <h1>بازدید های ما</h1>
+      <div class="bazdid2">
+        <script
+          type="text/javascript"
+          src="https://freehitcounters.org/count/d89p"
+        ></script>
+        <br />
+        <a href="https://www.acadoo.de/">Ghostwriter Doktorarbeit</a>
+        <script
+          type="text/javascript"
+          src="https://www.whomania.com/ctr?id=c8300397949d754af02e593c887c1af17220e3bd"
+        ></script>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="ertbat">
+        <h1>ارتباط با ما</h1>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/sharifi_rice/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+              ><img src="./image/square-instagram.svg" alt=""
+            /></a>
+          </li>
+          <li>٠٩١١١٥٨٥٤٢٣</li>
+          <li>٠٩١١٩٥٤٧٧٩٧</li>
+          <img src="./image/enamad-logo2.png" alt="" />
+        </ul>
+      </div>
+      <div class="lendi">
+        <h1>این سایت توسط گروهی از دانش اموزان دوازه کامپیوتر هنرستان لندی</h1>
+        <h2>تاریخ : ۱۴۰۲/۸/۱۳</h2>
+      </div>
+    </footer>
+    <script src="../js/all.min.js"></script>   
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+   <script>
+    $(document).ready(function(){
+        $('header .hamburger-icon img').click(function(){
+            let respansivemenu = $('#respansive-navigation');
+            respansivemenu.animate({
+                right:0
+            },300);
+            $('body').append('<div class="back-container"></div>');
+            $('.back-container').click(function(){
+                respansivemenu.animate({
+                    right: '-200px'
+                },300)
+                $(this).remove()
+            })
+        })
+    })
+   </script> 
+  </body>
+</html>
